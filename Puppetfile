@@ -1,3 +1,7 @@
+mod 'apache',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
+  :link => true,
+  :default_branch => 'main'
 moduledir 'external_modules'
 mod 'puppetlabs/stdlib', '4.6.0'
 mod 'puppetlabs/concat'
